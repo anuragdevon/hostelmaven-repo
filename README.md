@@ -1,9 +1,9 @@
-# DBMS 2nd Session Project
-## Title : Hostel Management System for IIITDM
+# DBMS Second Session Project
+## Title : Hostel Management System for IIITDM Kancheepuram
    - Under Dr. Jagdish kakarla
    - Team 'C'  
 
-# Steps to run the web-application on local machine
+## Steps to run the web-application on local machine
    - Pre-requisites:
       - Python version 3.8.5
       - Pip package Manger 20.0.2
