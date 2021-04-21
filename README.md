@@ -3,7 +3,7 @@
    - Under Dr. Jagdish kakarla
    - Team 'C'  
 
-## Steps to run the web-application on local machine
+## Steps to run the web-application in local machine
    - Pre-requisites:
       - Python version 3.8.5
       - Pip package Manger 20.0.2
@@ -25,3 +25,12 @@
 
 ## Demo
 ![HMS](./2021-04-22-00-54-06.png?raw=true "Hostel Management System")
+
+## Tags
+[![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![Django](https://img.shields.io/badge/-Django-darkgreen?style=flat&logo=django&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![JQuery](https://img.shields.io/badge/-JQuery-blue?style=flat&logo=jquery&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
