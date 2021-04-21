@@ -1,7 +1,10 @@
 # DBMS Second Session Project
 ## Title : Hostel Management System for IIITDM Kancheepuram
    - Under Dr. Jagdish kakarla
-   - Team 'C'  
+   - Team 'C' 
+
+[![CI](https://github.com/primer/octicons/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/DBMS-Web/hostel-management/actions/workflows/main.yml) 
+[![Octicons Build](https://github.com/primer/octicons/workflows/Octicons%20Build/badge.svg)](https://github.com/DBMS-Web/hostel-management/deployments/activity_log?environment=hms-iiitdmk)
 
 ## Steps to run the web-application in local machine
    - Pre-requisites:
