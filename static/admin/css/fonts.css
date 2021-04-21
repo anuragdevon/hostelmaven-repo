@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'D-DINExp';
+    src: url('../fonts/D-DINExp-Bold.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D-DINExp';
+    src: url('../fonts/D-DINExp.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D-DINExp';
+    src: url('../fonts/D-DINCondensed.woff');
+    font-weight: 300;
+    font-style: normal;
+}
