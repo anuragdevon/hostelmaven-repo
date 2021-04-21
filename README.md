@@ -2,8 +2,7 @@
 ## Title : Hostel Management System for IIITDM
    - Under Dr. Jagdish kakarla
    - Team 'C'  
-## Demo ScreenShots
-![HMS](./2021-04-22-00-54-06.png?raw=true "Hostel Management System")
+
 # Steps to run the web-application on local machine
    - Pre-requisites:
       - Python version 3.8.5
@@ -23,3 +22,6 @@
       - Our authentication system is built django in-built authentication system, to create a new super User:
          ` python3 manage.py createsuperuser `
       - Once created using the credentials you can login into system as Dean/Wadon and add working staffs, students who can login with the credentials supplied to them.
+
+## Demo
+![HMS](./2021-04-22-00-54-06.png?raw=true "Hostel Management System")
