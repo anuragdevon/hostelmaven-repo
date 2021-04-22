@@ -2,7 +2,7 @@
 localhost/admin -> database access
 user athar
 ID: prahar@gmail.com
-password: hello
+password: helloo
 link ->
 https://github.com/vijaythapa333/django-student-management-system
 
