@@ -1,6 +1,6 @@
 ## Superuser
 localhost/admin -> database access
-user anura
+user athar
 ID: prahar@gmail.com
 password: hello
 link ->
