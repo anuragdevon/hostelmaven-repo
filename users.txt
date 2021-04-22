@@ -1,7 +1,7 @@
 ## Superuser
 localhost/admin -> database access
 user anura
-ID: bubun@gmail.com
+ID: prahar@gmail.com
 password: hello
 link ->
 https://github.com/vijaythapa333/django-student-management-system
