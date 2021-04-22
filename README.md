@@ -27,7 +27,7 @@
       - Once created using the credentials you can login into system as Dean/Wadon and add working staffs, students who can login with the credentials supplied to them.
 
 ## Demo
-![HMS](./2021-04-22-00-54-06.png?raw=true "Hostel Management System")
+![HMS](./2021-04-23-00-51-21.png?raw=true "Hostel Management System")
 
 ## Tags
 [![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
