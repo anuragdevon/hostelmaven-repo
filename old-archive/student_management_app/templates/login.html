@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content %}
+
+<style>
+  .button {
+    display: inline-block;
+    background: rgba(41, 128, 239, 1) !important;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.8rem 1rem;
+    border-radius: 5%;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+  .button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    transform: translate(0px, -1px) scale(1.03);
+    
+  
+}
+
+.ion-ios-locked-outline{
+    color: #2980EF;
+  }
+</style>
+<body class="hold-transition login-page login" style="background-image: radial-gradient(#000000, #0c1a24);">
+<div class="login-box">
+  <h1 class="text-center fontawesome-free" style="color: rgb(201, 198, 198); font-family: roboto;">
+    Hostel Management IIITDMK
+  </h1>
+  <!-- /.login-logo -->
+  <div class="card align-self-center" style="background-color: #1E2833; height: 25rem;">
+    <div class="card-body login-card-body mt-5" style="background-color: #1E2833;">
+      <span class="icon ion-ios-locked-outline fa-4x d-flex justify-content-center" aria-hidden="true"></span>
+      <form action="{% url 'doLogin' %}" method="POST">
+        <!-- <div class="align-items-center" style="position: absolute; size: 50px"><i class="icon ion-ios-locked-outline"></i></div> -->
+      {% csrf_token %}
+        <div class="input-group mb-3">
+          <input type="email" class="form-control text-white" style="background: transparent; border:0" placeholder="Email" name="email">
+          <div class="input-group-append">
+            <div class="input-group-text" style="border: 0;">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control text-white" style="background: transparent; border:0;" placeholder="Password" name="password">
+          <div class="input-group-append">
+            <div class="input-group-text" style="border: 0;">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-12 text-center">
+            <!-- <button type="submit" class="btn btn-primary" style="border: 0;">Sign In</button> -->
+            <button type="submit" class="button">Sign in</button>
+          </div>
+
+          {% comment %} <div class="col-12 text-center">
+            <a href="{% url 'password_reset' %}">Reset Password</a>
+          </div>  {% endcomment %}
+
+          {% comment %} Display Messages {% endcomment %}
+          {% if messages %}
+          <div class="col-12">
+            {% for message in messages %}
+              {% if message.tags == "error" %}
+                <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-top: 10px;">
+                  {{ message }}
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          <!-- /.col -->
+        </div>
+      </form>
+
+
+  </div>
+</div>
+</body>
+{% endblock %}

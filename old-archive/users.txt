@@ -1,0 +1,27 @@
+## Superuser
+localhost/admin -> database access
+user athar
+ID: prahar@gmail.com
+password: helloo
+link ->
+https://github.com/vijaythapa333/django-student-management-system
+
+Things to be noted:-
+
+ManageStaff
+Add staff
+Manage student
+Add student
+Manage Session
+Add Session
+View Attendance
+Student Feedback
+Staff Feedback
+Student Leave 
+Staff Leave
+Cleaning Status
+
+
+Sign in- For entry of waden/dean
+They can see the database
+
