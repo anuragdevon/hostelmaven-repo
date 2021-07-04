@@ -1,9 +1,7 @@
-from enum import auto
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 class Session(models.Model):
-    # id = models.AutoField(primary_key=True)
     session_start_year = models.DateField()
     session_end_year = models.DateField()
 
@@ -80,10 +78,9 @@ class NotificationStudent(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-class NotificationStaffs(models.Model):
+class NotificationStaff(models.Model):
     staff_id = models.ForeignKey(Staff, on_delete=models.CASCADE)
     message = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-# will be doing django signals
