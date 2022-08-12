@@ -1,1 +1,3 @@
-HMS/django/
+env
+.env
+.DS_Store
